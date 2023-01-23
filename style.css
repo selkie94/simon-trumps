@@ -1,0 +1,99 @@
+body {
+    background-color: #2A2550;
+opacity: 1;
+background: linear-gradient(135deg, #251D3A55 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #251D3A 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #251D3A55 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #251D3A 25%, #2A2550 25%) 0px 0/ 80px 80px;
+}
+
+h1 {
+    color: #ec8754;
+    font-family: 'Merriweather Sans';
+    text-align: center;
+    font-size: 4rem;
+}
+
+@media screen and (min-width: 720px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Pop-Up styles */
+
+#popup{
+    background-color: #060127;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    display: none;
+    font-family: “Merriweather Sans”,sans-serif;
+    text-align: center;
+}
+
+h2{
+    margin-top: -20px;
+    color:#FF7700;
+ }
+ p{
+     font-size: 14px;
+     text-align: justify;
+     margin: 20px 0;
+     line-height: 25px;
+     color:#E04D01;
+ }
+
+ .button{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #ec8754;
+    border-radius: 20px;
+    border-color: #ec8754;
+    color: #060127;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+/* Game tile styles */
+
+.game-tile {
+    margin: 10px;
+    border: 5px solid;
+    border-color: #FF7700;
+}
+
+.dark-orange-trump {
+    border-color: #E04D01;
+}
+
+
+.game-tile:hover {
+    opacity: 0.5;
+    scale:1.1;
+}
+
+/* Footer styles */
+
+.footer {
+    text-align: center;
+    top:800px;
+  }
+  
+  .sociallinks {
+    padding:10px;
+  }
+  
+  .footericon:hover{
+    color: #FF7700;
+  }
+  
+  .footericon {
+    padding: 10px 10px;
+    color: #E04D01;
+  }
+  
